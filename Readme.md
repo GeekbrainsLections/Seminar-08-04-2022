@@ -28,14 +28,15 @@
 Удаление слитой ветки можно произвести с помощью команды *git branch -d*. Использется она следующим образом: в папке с репозиторием пишем команду *git branch -d <название удаляемой ветки>*. Удаляемая ветка должна быть **ОБЯЗАТЕЛЬНО СЛИТА** с какой-нибудь из существующих веток
 
 # Пример удаление ветки "New":
-Проверяем кол-во веток, значок * покажет активную.
-Осуществляем коммандой переход на иную ветку.
-Появиться в сообщении где мы :*Switched to branch master*, но можно удостовериться, вызвав  *git branch*.
-Не забываем делать *git add* и *git commit -m*
-
-*git branch master
-           *new
- git chechout master
- Switched to branch master
- git branch -d new
- git branch master*
+1. Проверяем кол-во веток, значок * покажет активную.
+3. Осуществляем коммандой переход на иную ветку.
+4. Появиться в сообщении где мы : *Switched to branch master*, но можно удостовериться, вызвав  *git branch*.
+5. Не забываем делать *git add* и *git commit -m*
+ 
+ В программе выглядит так:
+ 
+ + git branch master/*new
+ + git chechout master
+ + Switched to branch master
+ + git branch -d new
+ + git branch master*
